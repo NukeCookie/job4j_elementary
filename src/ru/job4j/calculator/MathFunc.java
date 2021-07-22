@@ -10,6 +10,7 @@ public class MathFunc {
         int y = 1 / x;
         return y;
     }
+
     public static void main(String[] args) {
         int result1 = MathFunc.func1(3);
         int result2 = MathFunc.func2(5);

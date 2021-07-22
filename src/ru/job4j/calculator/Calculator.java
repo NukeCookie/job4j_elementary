@@ -19,8 +19,9 @@ public class Calculator {
         System.out.println(fourTimeTwo);
 
         int size = 10;
-                size = 100;
-                size = size - 5;
+        size = 100;
+        size = size - 5;
         System.out.println(size);
     }
 }
+
