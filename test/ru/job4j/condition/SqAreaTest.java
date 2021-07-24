@@ -16,7 +16,7 @@ public class SqAreaTest {
 
     @Test
     public void whenP10K2Square5() {
-        double expected = 5.555555555555556;
+        double expected = 5.56;
         int p = 10;
         double k = 2;
         double out = SqArea.square(p, k);
@@ -25,7 +25,7 @@ public class SqAreaTest {
 
     @Test
     public void whenP20K5Square13() {
-        double expected = 13.888888888888891;
+        double expected = 13.89;
         int p = 20;
         double k = 5;
         double out = SqArea.square(p, k);
