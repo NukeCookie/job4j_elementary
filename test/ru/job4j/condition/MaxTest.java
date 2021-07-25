@@ -13,23 +13,5 @@ public class MaxTest {
         int expected = 2;
         Assert.assertEquals(result, expected);
     }
-
-    @Test
-    public void whenMax3To1Then3() {
-        int left = 3;
-        int right = 1;
-        int result = Max.max(left, right);
-        int expected = 3;
-        Assert.assertEquals(result, expected);
-    }
-
-    @Test
-    public void whenMax3To3Then3() {
-        int left = 3;
-        int right = 3;
-        int result = Max.max(left, right);
-        int expected = 3;
-        Assert.assertEquals(result, expected);
-    }
 }
 
