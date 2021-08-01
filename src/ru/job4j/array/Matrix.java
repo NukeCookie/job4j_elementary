@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Matrix {
     public static int[][] multiple(int size) {
         int[][] multiple = new int[size][size];
-        for (int i = 1; i < size + 1; i++) {
-            for (int j = 1; j < size + 1; j++) {
-                multiple[i - 1][j - 1] = i * j;
+        for (int i = 0; i < size; i++) {
+            for (int j = 1; j < size; j++) {
+                multiple[i][j] = (i + 1) * (j + 1);
             }
         }
         return multiple;
