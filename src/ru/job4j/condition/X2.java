@@ -12,28 +12,24 @@ public class X2 {
         int x = 1;
         int rsl = X2.calc(a, b, c, x);
         System.out.println(rsl);
-
        a = 1;
        b = 1;
        c = 1;
        x = 1;
        rsl = X2.calc(a, b, c, x);
         System.out.println(rsl);
-
         a = 0;
         b = 1;
         c = 1;
         x = 1;
         rsl = X2.calc(a, b, c, x);
         System.out.println(rsl);
-
         a = 1;
         b = 1;
         c = 0;
         x = 1;
         rsl = X2.calc(a, b, c, x);
         System.out.println(rsl);
-
         a = 1;
         b = 1;
         c = 1;
